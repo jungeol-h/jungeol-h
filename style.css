@@ -139,7 +139,7 @@ body{
 }
 
 
-#line{
+.long_line{
   border: 0;
   width:1300px;
   margin: 0px auto;
@@ -151,3 +151,31 @@ body{
   right:0;
 }
 
+#profile{
+  width:1300px;
+  margin: 0px auto;
+}
+
+#profile>h1{
+  margin:10px 0px;
+}
+.shortline{
+  float:left;
+  border: 0;
+  width:120px;
+  height: 2px;
+  background: rgb(0, 0, 0);
+}
+
+#profile_text{
+  display: flex;
+  font-weight: 200;
+  font-size: 23px;
+  align-items: center;
+}
+
+#selfie{
+  margin-top: 20px;
+  margin-right:100px;
+  width: 300px; 
+}
